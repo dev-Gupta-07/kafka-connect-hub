@@ -9,4 +9,4 @@ docker run -p 9092:9092 \
 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
 confluentinc/cp-kafka
 
-{at place of it 192.168.29.176:2181} replace with ip address of your zookeeper
+{at place of it 192.168.29.176} replace with ip address of your zookeeper
